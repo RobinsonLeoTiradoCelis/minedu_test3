@@ -1,95 +1,68 @@
 @charset "utf-8";
-/*
-
-@font-face {
-    font-family: 'Gotham Rounded';
-    src: url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Bold.eot');
-    src: url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
-        url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Bold.woff2') format('woff2'),
-        url('http://www,perueduca.pe/documents/10179/329852607/GothamRounded-Bold.woff') format('woff'),
-        url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Bold.ttf') format('truetype'),
-        url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Bold.svg#GothamRounded-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gotham Rounded';
-    src: url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Medium.eot');
-    src: url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Medium.eot?#iefix') format('embedded-opentype'),
-        url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Medium.woff2') format('woff2'),
-        url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Medium.woff') format('woff'),
-        url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Medium.ttf') format('truetype'),
-        url('http://www.perueduca.pe/documents/10179/329852607/GothamRounded-Medium.svg#GothamRounded-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
-
-*/
 body{
-	 font-family: 'Gotham';
-	 font-size: 16px;
-}
-@font-face {
+	font-family: 'Gotham';
+    font-size: 16px;}
+@font-face{
     font-family: 'Gotham';
     src: url('../fonts/gothamregular-webfont.eot');
     src: url('../fonts/gothamregular-webfontd41d.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/gothamregular-webfont.woff2') format('woff2'),
-        url('../fonts/gothamregular-webfont.woff') format('woff'),
-        url('../fonts/gothamregular-webfont.ttf') format('truetype'),
-        url('../fonts/gothamregular-webfont.svg#gothamregular-webfont') format('svg');
+         url('../fonts/gothamregular-webfont.woff2') format('woff2'),
+         url('../fonts/gothamregular-webfont.woff') format('woff'),
+         url('../fonts/gothamregular-webfont.ttf') format('truetype'),
+         url('../fonts/gothamregular-webfont.svg#gothamregular-webfont') format('svg');
     font-weight: bold;
-    font-style: normal;
-}
-@font-face {
+    font-style: normal;}
+@font-face{
     font-family: 'Gotham Rounded';
     src: url('../fonts/GothamRounded-Bold.eot');
     src: url('../fonts/GothamRounded-Boldd41d.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GothamRounded-Bold.woff2') format('woff2'),
-        url('../fonts/GothamRounded-Bold.woff') format('woff'),
-        url('../fonts/GothamRounded-Bold.ttf') format('truetype'),
-        url('../fonts/GothamRounded-Bold.svg#GothamRounded-Bold') format('svg');
+         url('../fonts/GothamRounded-Bold.woff2') format('woff2'),
+         url('../fonts/GothamRounded-Bold.woff') format('woff'),
+         url('../fonts/GothamRounded-Bold.ttf') format('truetype'),
+         url('../fonts/GothamRounded-Bold.svg#GothamRounded-Bold') format('svg');
     font-weight: bold;
-    font-style: normal;
-}
+    font-style: normal;}
 
-@font-face {
+@font-face{
     font-family: 'Gotham Medium';
     src: url('../fonts/GothamRounded-Medium.eot');
     src: url('../fonts/GothamRounded-Mediumd41d.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GothamRounded-Medium.woff2') format('woff2'),
-        url('../fonts/GothamRounded-Medium.woff') format('woff'),
-        url('../fonts/GothamRounded-Medium.ttf') format('truetype'),
-        url('../fonts/GothamRounded-Medium.svg#GothamRounded-Medium') format('svg');
+         url('../fonts/GothamRounded-Medium.woff2') format('woff2'),
+         url('../fonts/GothamRounded-Medium.woff') format('woff'),
+         url('../fonts/GothamRounded-Medium.ttf') format('truetype'),
+         url('../fonts/GothamRounded-Medium.svg#GothamRounded-Medium') format('svg');
     font-weight: 500;
-    font-style: normal;
-}
-
+    font-style: normal;}
 
 .btn-red {
     color: #fff;
 	font-family: 'Gotham Rounded';
 	font-weight: 200;
-    background-color: #8ec3c4;
-    border-color: #8ec3c4;}
+    background-color: #3DB8C1;
+    border-color: #3DB8C1;}
+	
 .btn-red:hover {
     color: #fff;}
+	
 .txt-title{
 	font-family: 'Gotham rounded';
 	font-weight: 500;
 	font-size: 22px;
-	color: #3e488d;}
+	color: #144597;}
+	
 .txt-title-modal{
 	font-family: 'Gotham rounded';
     font-weight: 500;
     font-size: 25px;
     color: #29509C;}
+	
 .txt-detalle-modal {
     font-family: 'Gotham rounded';
     font-weight: 500;
     font-size: 16px;
     color: #000;
 	margin-bottom: 30px;}
+	
 .btn-aec {
     background-color: #29509C!important;
     background-image: none;
@@ -99,61 +72,61 @@ body{
     font-weight: 300;
     border-radius: 10px;
     padding: 7px 15px;
-    min-width: 150px;
-}
+    min-width: 150px;}
+
 .txt-detalle-title{
 	font-size: 17px;
 	font-family: 'Gotham Rounded';
 	color:#1D1D1B;
 	margin-top: 10px;
 	margin-bottom: 10px;}
-.logo-perueducas{
-	margin-top:30px;}
+
 .p-lr30{
 	padding-left: 15px;
 	padding-right: 15px;}
+	
 .pt-30{
-	padding-top: 30px;
-}
+	padding-top: 30px;}
+	
 .btn-blue {
     color: #fff;
     font-family: 'Gotham Rounded';
     font-weight: 200;
-    background-color: #8ec3c4;
-    border-color: #8ec3c4;
-}
+    background-color: #3DB8C1;
+    border-color: #3DB8C1;}
+	
 .btn-yellow{
 	color: #fff;
     font-family: 'Gotham Rounded';
     font-weight: 200;
     background-color: #f7a605;
-    border-color: #f7a605;
-}
+    border-color: #f7a605;}
+	
 .btn-yellow:hover{
-	color: #fff;
-}
+	color: #fff;}
+	
 .btn-blue-2{
     color: #fff;
     font-family: 'Gotham Rounded';
     font-weight: 200;
     background-color: #3279be;
-    border-color: #3279be;
-}
+    border-color: #3279be;}
+	
 .btn-blue-2:hover{
-	color: #fff;
-}
+	color: #fff;}
 
 .box-cursos{
 	width:100%;
 	display:block;
 	background-color:#ffffff;
 	border:1px solid #C6C6C6;
-	margin-bottom: 15px;
-	min-height: 568px;}
+	margin-bottom: 15px;}
+	
 .detalle-constancia{
 	position: absolute;
     left: 10px;
     top: 15px;}
+	
 .titulo-curso{
 	font-size: 17px;
 	font-family: 'Gotham Rounded';
@@ -164,34 +137,41 @@ body{
 	margin-bottom: 5px;
 	min-height: 51px;
     margin-left: 5px;
-	margin-right: 5px;
-}
+	margin-right: 5px;}
+	
 .box-detalles{
 	min-height:129px;
 	width:100%;
 	display:block;
 	font-family: 'Gotham Rounded';
-	padding:10px 15px 5px 15px;}
+	padding:10px 15px 15px 15px;}
+	
 .box-detalles p{
 	margin-bottom: 5px;}
+	
 .box-detalles p .txt-detalle-curso img{
     margin-top: -5px;
 	padding-left: 10px;
 	padding-right: 10px;}
+	
 .box-detalles-eba{
 	min-height:100px;
 	width:100%;
 	display:block;
 	font-family: 'Gotham Rounded';
 	padding:10px 15px 5px 15px;}
+	
 .box-detalles-eba p{
 	margin-bottom: 5px;}
+	
 .box-detalles-eba p .txt-detalle-curso img{
     margin-top: -5px;
 	padding-left: 10px;
 	padding-right: 10px;}
+	
 .btn-curso{
 	margin:7px auto;}
+	
 .txt-detalle-curso{
 	font-size: 16px;
 	font-family: 'Gotham Rounded';
@@ -203,10 +183,11 @@ body{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	border-radius: 15px;
-	background-color: #3e488d; 
+	background-color: #144597; 
 	color: #fff;
 	font-family: 'Gotham Rounded';
 	font-size: 19px;}
+	
 .box-ayuda a{
 	font-size: 22px;
 	color: #fff;
@@ -216,60 +197,79 @@ body{
 	font-size: 18px;
 	font-family: 'Gotham Rounded';
 	color:#fff;
-	background-color: #884d92;}
+	background-color: #FFC43A;}
+	
 .nav-pills>li>a.btn-one{
 	font-size: 18px;
 	font-family: 'Gotham Rounded';
-	color:#884d92;
-	background-color: #ffffff;
-	border: 1px solid #884d92; }
+	color:#fff;
+	background-color: #FFC43A;
+	border: 1px solid #FFC43A; }
+	
 .nav-pills>li.active>a.btn-two{
 	font-size: 18px;
 	font-family: 'Gotham Rounded';
 	color:#fff;
-	background-color: #e8bf2d;}
+	background-color: #3DB8C1;}
+	
 .nav-pills>li>a.btn-two{
 	font-size: 18px;
 	font-family: 'Gotham Rounded';
-	color:#e8bf2d;
-	background-color: #ffffff;
-	border: 1px solid #e8bf2d; }
+	color:#fff;
+	background-color: #3DB8C1;
+	border: 1px solid #3DB8C1; }
+	
 .nav-pills>li.active>a.btn-three{
 	font-size: 18px;
 	font-family: 'Gotham Rounded';
 	color:#fff;
 	background-color: #3279BE;}
+	
 .nav-pills>li>a.btn-three{
 	font-size: 18px;
 	font-family: 'Gotham Rounded';
 	color:#3279BE;
 	background-color: #ffffff;
-	border: 1px solid #3279BE; }
+	border: 1px solid #3279BE;}
 
-	.nav-pills>li.active>a.btn-four{
-		font-size: 18px;
-		font-family: 'Gotham Rounded';
-		color:#fff;
-		background-color: #fdc500;}
-	.nav-pills>li>a.btn-four{
-		font-size: 16px;
-		font-family: 'Gotham Rounded';
-		color:#fdc500;
-		background-color: #ffffff;
-		border: 1px solid #fdc500; }
+.nav-pills>li.active>a.btn-four{
+	font-size: 18px;
+	font-family: 'Gotham Rounded';
+	color:#fff;
+	background-color: #fdc500;}
+	
+.nav-pills>li>a.btn-four{
+	font-size: 16px;
+	font-family: 'Gotham Rounded';
+	color:#fdc500;
+	background-color: #ffffff;
+	border: 1px solid #fdc500; }
 
-		.nav-pills>li.active>a.btn-five{
-			font-size: 18px;
-			font-family: 'Gotham Rounded';
-			color:#fff;
-			background-color: #f7a605;}
-		.nav-pills>li>a.btn-five{
-			font-size: 18px;
-			font-family: 'Gotham Rounded';
-			color:#f7a605;
-			background-color: #ffffff;
-			border: 1px solid #f7a605; }
+.nav-pills>li.active>a.btn-five{
+	font-size: 18px;
+	font-family: 'Gotham Rounded';
+	color:#fff;
+	background-color: #f7a605;}
+	
+.nav-pills>li>a.btn-five{
+	font-size: 18px;
+	font-family: 'Gotham Rounded';
+	color:#f7a605;
+	background-color: #ffffff;
+	border: 1px solid #f7a605; }
 
+.nav-pills>li.active>a.btn-custom{
+	font-size: 25px;
+	font-family: 'Gotham Rounded';
+	color:#fff;
+	background-color: #FFC43A;}
+	
+.nav-pills>li>a.btn-custom{
+	font-size: 25px;
+	font-family: 'Gotham Rounded';
+	color:#FFC43A;
+	background-color: #FFC43A;}
+	  
 .title-red{
 	font-family: 'Gotham Rounded';
 	color:#FFFFFF;
@@ -277,7 +277,7 @@ body{
 	text-align:center;
 	padding:5px 15px;
 	background-color:#FF2E45;}
-
+	
 .txt-progreso{
 	font-family: 'Gotham Rounded';
 	color:#FFFFFF;
@@ -285,8 +285,8 @@ body{
 	text-align:center;
 	padding:5px 15px;
 	background-color:#5DC4BD;
-	margin-bottom: 0px;
-	}
+	margin-bottom: 0px;}
+	
 .txt-inscripcion{
 	font-family: 'Gotham Rounded';
 	color:#FFFFFF;
@@ -294,8 +294,8 @@ body{
 	text-align:center;
 	padding:5px 15px;
 	background-color:#FDBA13;
-	margin-bottom: 0px;
-	}
+	margin-bottom: 0px;}
+	
 .txt-proximamente{
 	font-family: 'Gotham Rounded';
 	color:#FFFFFF;
@@ -303,255 +303,192 @@ body{
 	text-align:center;
 	padding:5px 15px;
 	background-color:#ee344b;
-	margin-bottom: 0px;
-	}
-
-
-
-
-@media (max-width: 767px) { 
-	.logo-perueduca img{
-		margin: 0 auto !important;}
-	.logo-minedu{
-		display:none;
-	}
-	.ayuda-pc{
-		display:none !important;}
-	.ayuda-cel{
-		display:block;
-		margin: 0 auto;}
-	
-	.content-text-p p{
-		padding:  0 10px !important;
-	}
-}
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 768px) { 
-	.ayuda-pc{
-		display:block;}
-	.ayuda-cel{
-		display:none !important;}
-
-
-}
-
+	margin-bottom: 0px;}
 
 .bg-section4 {
 	background-color: #00a59c;
 	padding: 20px 0;
 	text-align: center;
-	margin: auto;
-}
+	margin: auto;}
 
 .bg-section4 h3 {
 	color: white;
 	font-size: 50px;
 	font-weight: 700;
 	margin-top: 60px;
-	margin-bottom: 30px;
-}
+	margin-bottom: 30px;}
 
 .content-text-p p{
-	padding:  0px 80px 40px 80px;
-}
+    padding:  0px 80px 40px 80px;}
 
-
-@media(max-width: 425px){
-	.box-ayuda a{
-	  font-size:4vw !important;
-	}
-
-	.txt-title, .txt-detalle-title{
-		text-align: center;
-	}
-
-	.logo-perueduca{
-		margin-bottom: 40px;
-	}
+.text-center{
+    text-align: center;
+    margin-top: 15px;}
   
-	.pt-30{
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.box-cursos{
-		min-height: 370px;
-	}
-
-	.titulo-curso{
-		padding: 0px 10px;
-	}
-
-	.pull-left, .pull-left a , .pull-left a img,
-	.pull-right, .pull-right a , .pull-right a img{
-		width: 100%;
-	}
-
-  }
-
-
-  .text-center{
-	text-align: center;
-    margin-top: 15px;
-  }
-  .text-center a img{
-	width: 100px;
+.text-center a img{
+    width: 100px;
     height: 35px;
-    margin: auto;
-  }
-
-    /*PROGRAMAS*/
-  .content-item-programa{
-  	margin-bottom: 36px;
-
-    }
-  .content-titulo-programa{
-  	width: 100%;
-  	background: #29396A;
-  	color: white;
-  	padding: 8px;
-  	font-weight: 700;
-  	font-size: 25px;
-  	text-align: center;
-  	margin-bottom: 30px;
-  	font-family: 'Gotham Rounded';
-  	line-height: 25px;
-
-  }
-  .bloque-info-programa{
-  	display: flex;
-  	margin-bottom: 26px;
-  }
-  .detalle-constancia-programa{
-  	position: absolute;
+    margin: auto;}
+  
+.content-item-programa{
+	margin-bottom: 36px;}
+	
+.content-titulo-programa{
+	width: 100%;
+	background: #29396A;
+	color: white;
+	padding: 8px;
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Gotham Rounded';
+	line-height: 25px;}
+	
+.bloque-info-programa{
+	display: flex;
+	margin-bottom: 26px;}
+	
+.detalle-constancia-programa{
+	position: absolute;
     left: -4px;
-    top: 15px;
-  }
-  .content-banner-programa{
-  	position: relative;
-  	width: 60%;
-  }
-  .content-btn-programa{
-  	position: absolute;
-  	bottom: 10px;
-  	width: 100%;
-  	text-align: center;
-  }
-  .content-detalle-programa{
-  	border: 1px solid #DADADA;
-  	border-radius: 6px;
-  	width: 38%;
-  	margin-left: 2%;
-  	display: flex;
-  	padding: 10px 30px;
-  	flex-direction: column;
-  	justify-content: center;
-  }
-  .item-info-programa{
-  	display: flex;
-  	margin-bottom: 20px;
-  }
-  .item-info-programa:last-child{
-  	margin-bottom: 0;
-  }
-  .content-icono-item{
-  	display: flex;
-    align-items: center;
-  }
-  .content-texto-item{
-  	margin-left: 20px;
-  }
-  .texto-medium-item{
+    top: 15px;}
+  
+.content-banner-programa{
+	position: relative;
+	width: 60%;}
+	
+.content-btn-programa{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;}
+	
+.content-detalle-programa{
+	border: 1px solid #DADADA;
+	border-radius: 6px;
+	width: 38%;
+	margin-left: 2%;
+	display: flex;
+	padding: 10px 30px;
+	flex-direction: column;
+	justify-content: center;}
+	
+.item-info-programa{
+	display: flex;
+	margin-bottom: 20px;}
+	
+.item-info-programa:last-child{
+	margin-bottom: 0;}
+	
+.content-icono-item{
+	display: flex;
+    align-items: center;}
+  
+.content-texto-item{
+	margin-left: 20px;}
+	
+.texto-medium-item{
+    font-size: 16px;
+    line-height: 19px; 
+    font-family: 'Gotham Medium';}
+
+.titulo-nivel{
 	font-size: 16px;
-	line-height: 19px; 
-	font-family: 'Gotham Medium';
-  }
-  .titulo-nivel{
-  	font-size: 16px;
-	line-height: 19px; 
-	font-family: 'Gotham Medium';
-	margin-bottom: 15px;
-  }
-  .list-orden{
-  	margin-bottom: 18px;
-  	padding-left: 14px;
+    line-height: 19px; 
+    font-family: 'Gotham Medium';
+    margin-bottom: 15px;}
+	
+.list-orden{
+	margin-bottom: 18px;
+	padding-left: 14px;
     line-height: 23px;
-    margin-bottom: 18px;
-  }
-  .btn-programa{
-  	background: #29396A;
-  	color: #fff;
+    margin-bottom: 18px;}
+  
+.btn-programa{
+	background: #29396A;
+	color: #fff;
     font-family: 'Gotham Rounded';
     font-weight: 200;
     min-width: 170px;
-    margin: 3px 10px;
-  }
-  .btn-programa:hover {
-    color: #fff;
-  }
-  .bloque-programa-detalle{
-  	display: none;
+    margin: 3px 10px;}
+  
+.btn-programa:hover {
+    color: #fff;}
 
-  }
-.bloque-cursos-nivel{
-
-}
-  .prog-container-tabs{
-	margin-top: 5px;
-	}
-  .prog-tabs{
+.bloque-programa-detalle{
+	display: none;}
+	
+.prog-container-tabs{
+    margin-top: 5px;}
+	
+.prog-tabs{
     width: 100%;
     max-width: 560px;
     margin: 0 auto;
     padding: 0px;
     list-style: none;
-    display: flex;
-	}
+    display: flex;}
+	
 .prog-tab-link{
 	width: 100%;
 	background: #BBBBBB;
 	border-radius: 6px;
 	color: white;
 	font-family: 'Gotham Rounded';	
-	height: 38px;
+	height: 58px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-}
+	text-align:center;}
+	
 .prog-tab-link-2{
 	width: 100%;
-	background: #BBBBBB;
+	background-color:#AB4B97;
 	border-radius: 6px;
 	color: white;
+	font-size:25px;
 	font-family: 'Gotham Rounded';	
-	height: 38px;
+	height: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-	margin-bottom: 5rem;
-	margin-top: 2rem;
-}
-.sub-menu-curses{
-	background: #8ec3c4;
-	margin-top:58rem;
+	margin-bottom: 1rem;
+	margin-top: 2rem;}
 	
-}
+.sub-menu-curses{
+	background: #3DB8C1;}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;}
+	
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;}
+	
 .prog-tab-link + .prog-tab-link{
-	margin-left: 24px;
-}
+	margin-left: 24px;}
+	
 .prog-tabs li.tab-active{
-	position: relative;
-}
+	position: relative;}
+	
 .prog-tabs li.tab-active:nth-child(1){
-	background: #884d92;
-}
+	background-color: #AB4B97;}
+	
 .prog-tabs li.tab-active:nth-child(2){
-	background: #8ec3c4;
-}
+	background: #3DB8C1;}
+	
 .prog-tabs li.tab-active:nth-child(3){
-	background: #e8bf2d;
-}
+	background: #FFC43A;}
+	
 .prog-tabs li.tab-active:nth-child(1):before{
 	top: 100%;
 	left: 50%;
@@ -562,10 +499,10 @@ body{
 	position: absolute;
 	pointer-events: none;
 	border-color: rgba(247, 170, 10, 0);
-	border-top-color: #884d92;
+	border-top-color: #AB4B97;
 	border-width: 13px;
-	margin-left: -13px;
-}
+	margin-left: -13px;}
+	
 .prog-tabs li.tab-active:nth-child(2):before{
 	top: 100%;
 	left: 50%;
@@ -576,10 +513,10 @@ body{
 	position: absolute;
 	pointer-events: none;
 	border-color: rgba(247, 170, 10, 0);
-	border-top-color: #8ec3c4;
+	border-top-color: #3DB8C1;
 	border-width: 13px;
-	margin-left: -13px;
-}
+	margin-left: -13px;}
+	
 .prog-tabs li.tab-active:nth-child(3):before{
 	top: 100%;
 	left: 50%;
@@ -590,32 +527,25 @@ body{
 	position: absolute;
 	pointer-events: none;
 	border-color: rgba(247, 170, 10, 0);
-	border-top-color: #e8bf2d;
+	border-top-color: #FFC43A;
 	border-width: 13px;
-	margin-left: -13px;
-}
+	margin-left: -13px;}
+	
 .container-info-tabs{
-	margin-top: 30px;
-}
+	margin-top: 30px;}
+	
 .prog-tab-body{
-	/*border: 1px solid #DADADA;
-	border-radius: 6px;
-	padding: 45px 80px;*/
-	padding-top: 20px;
-	display: none;
-
-}
+    padding-top: 0.5vw;
+	display: none;}
 
 .prog-tab-body.tab-active {
-    display: inherit;
-}
+    display: inherit;}
 
 .content-item-programa-2 .content-titulo-programa{
-	background: #EFB41D;
-}
+	background: #EFB41D;}
+	
 .content-item-programa-3 .content-titulo-programa{
-	background: #5CB003;
-}
+	background: #5CB003;}
 
 .btn-programa-simple{
   	background: #EFB41D;
@@ -623,28 +553,26 @@ body{
     font-family: 'Gotham Rounded';
     font-weight: 200;
     min-width: 170px;
-    margin: 3px 10px;
-  }
+    margin: 3px 10px;}
+	
 .btn-programa-simple:hover {
-    color: #fff;
-  }
+    color: #fff;}
 
 .content-titulo-seccion{
 	max-width: 220px;
 	margin: 0 auto;
-	margin-bottom: 35px;
-}
+	margin-bottom: 35px;}
+	
 .titulo-texto-seccion{
 	display: inline-block;
 	margin-left: 15px;
 	font-size: 18px;
 	vertical-align: middle;
-	font-family: 'Gotham Rounded';
-
-}
+	font-family: 'Gotham Rounded';}
+	
 .accordion-item-grupo{
-	border-bottom: 1px solid #fff;
-}
+	border-bottom: 1px solid #fff;}
+	
 .card-accordion-grupo{
 	width: 38px;
 	padding: 5px;
@@ -654,8 +582,8 @@ body{
 	background: #BBBBBB;
 	width: 100%;
 	position: relative;
-	cursor: pointer;
-}
+	cursor: pointer;}
+	
 .card-accordion-grupo:before{
 	content: '';
 	position: absolute;
@@ -666,56 +594,54 @@ body{
 	border-style: solid;
 	border-width: 6.5px 0 6.5px 9px;
 	border-color: transparent transparent transparent #ffffff;	
-	transition: all 0.3s;
-}
+	transition: all 0.3s;}
+	
 .card-accordion-grupo.acordion_active:before{
 	-webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
+    transform: rotate(90deg);}
+	
 .card-accordion-grupo.acordion_active{
-	background: #F7AA0A;
-}
+	background: #F7AA0A;}
+	
 .content-accordion-grupo--primaria .acordion_active{
-	background: #8ec3c4;
-}
+	background: #3DB8C1;}
+	
 .content-accordion-grupo--secundaria .acordion_active{
-	background: #e8bf2d;
-}
+	background: #FFC43A;}
+	
 .collapse-accordion-grupo{
 	border:1px solid #BBBBBB;
 	border-top: 0;
 	padding: 30px 5%;
-	display: none;
-
-}
+	display: none;}
+	
 .collapse-accordion-grupo li{
-	margin-bottom: 10px;
-}
+	margin-bottom: 10px;}
 
 .form-row>.col, .form-row>[class*=col-] {
     padding-right: 5px;
-    padding-left: 5px;
-}
+    padding-left: 5px;}
+	
 .content-info-select{
 	margin-top: 30px;
-	margin-bottom: 50px;
-}
+	margin-bottom: 50px;}
+	
 .titulo-cronograma{
 	font-size: 16px;
 	line-height: 19px;
 	font-family: 'Gotham Rounded';
 	font-style: italic;
-	margin-bottom: 20px;
-}
+	margin-bottom: 20px;}
+	
 .nombre-grupo-secundaria{
 	display: inline-block;
 	position: relative;
 	font-family: 'Gotham Rounded';
-	margin-bottom: 15px;
-}
+	margin-bottom: 15px;}
+	
 .estado-grupo{
 	background: #0EA955;
 	color: white;
@@ -723,8 +649,8 @@ body{
 	padding: 2px 10px;
 	position: relative;
 	margin-left: 20px;
-	font-family: 'Gotham Rounded';
-}
+	font-family: 'Gotham Rounded';}
+	
 .estado-grupo:before{
 	right: 100%;
 	top: 50%;
@@ -737,13 +663,37 @@ body{
 	border-color: rgba(14, 169, 85, 0);
 	border-right-color: #0EA955;
 	border-width: 8px;
-	margin-top: -8px;
-}
+	margin-top: -8px;}
+	
 .estado-grupo--cerrado{
-	background: #FF0000;
-}
+	background: #FF0000;}
+	
 .estado-grupo--cerrado:before{
-	border-right-color: #FF0000;
+	border-right-color: #FF0000;}
+	
+.hr-eva{
+	margin-bottom:-0px;
+	margin-top:-0px;
+	border-top:2.5px solid #eee;}
+.video-container{
+	background-color: #fff; 
+	padding-top: 1.5vw;
+	padding-bottom:1.5vw;
+	width:70%;
+	
+	
+}
+/*Media queries*/
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) { 
+	.ayuda-pc{
+		display:block;}
+	.ayuda-cel{
+		display:none !important;}
+
+	.hr-eva{
+		width:30vw;
+	}
 }
 
 @media (max-width: 991px) { 
@@ -763,9 +713,73 @@ body{
 		margin-bottom: 15px;
 	}
 	.prog-tab-body{
-		padding: 30px;
+		padding: 1.5vw;
 	}
 	.prog-tab-link + .prog-tab-link {
     margin-left: 10px;
 	}
+	.hr-eva{
+		width:30vw;
+	}
+	.video-container{
+		width:90%;
+	}
+}
+@media (max-width: 767px) { 
+.hr-eva{
+		width:65vw;
+	}
+	.logo-minedu img{
+		margin-top: 1.3em !important;}
+
+	.ayuda-pc{
+		display:none !important;}
+	.ayuda-cel{
+		display:block;
+		margin: 0 auto;}
+	
+	.content-text-p p{
+		padding:  0 10px !important;
+	}
+	.video-container{
+		width:90%;
+	}
+}
+
+@media(max-width: 425px){
+	.hr-eva{
+		width:50vw;
+	}
+	.box-ayuda a{
+	  font-size:4vw !important;
+	}
+
+	.txt-title, .txt-detalle-title{
+		text-align: center;
+	}
+
+	.logo-minedu{
+		margin-bottom: 40px;
+	}
+  
+	.pt-30{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.box-cursos{
+		min-height: 370px;
+	}
+
+	.titulo-curso{
+		padding: 0px 10px;
+	}
+
+	.pull-left, .pull-left a , .pull-left a img,
+	.pull-right, .pull-right a , .pull-right a img{
+		width: 100%;
+	}
+	.video-container{
+		width:90%;
+	}
+	
 }
